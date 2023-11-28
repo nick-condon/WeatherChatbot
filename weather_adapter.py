@@ -1,4 +1,5 @@
 from chatterbot.logic import LogicAdapter
+from city_list import extract_cities
 
 class WeatherAdapter(LogicAdapter):
     def __init__(self, chatbot, **kwargs):
